@@ -15,8 +15,8 @@ fn fib(n: u64) -> u64 {
 
 fn main() {
     let count = 41;
-    println!("fibonnaci of first {} numbers", count);
-    for i in 1..41 {
+    println!("fibonnaci of first {} numbers", count - 1);
+    for i in 1..count {
         println!("{} = {}", i, fib(i))
     }
 }
